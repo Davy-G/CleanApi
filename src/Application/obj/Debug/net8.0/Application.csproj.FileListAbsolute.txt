@@ -1,0 +1,15 @@
+/home/david/RiderProjects/Clean/src/Application/bin/Debug/net8.0/Application.deps.json
+/home/david/RiderProjects/Clean/src/Application/bin/Debug/net8.0/Application.dll
+/home/david/RiderProjects/Clean/src/Application/bin/Debug/net8.0/Application.pdb
+/home/david/RiderProjects/Clean/src/Application/bin/Debug/net8.0/Domain.dll
+/home/david/RiderProjects/Clean/src/Application/bin/Debug/net8.0/Domain.pdb
+/home/david/RiderProjects/Clean/src/Application/obj/Debug/net8.0/Application.csproj.AssemblyReference.cache
+/home/david/RiderProjects/Clean/src/Application/obj/Debug/net8.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/david/RiderProjects/Clean/src/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache
+/home/david/RiderProjects/Clean/src/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
+/home/david/RiderProjects/Clean/src/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache
+/home/david/RiderProjects/Clean/src/Application/obj/Debug/net8.0/Applicat.44B5EDA2.Up2Date
+/home/david/RiderProjects/Clean/src/Application/obj/Debug/net8.0/Application.dll
+/home/david/RiderProjects/Clean/src/Application/obj/Debug/net8.0/refint/Application.dll
+/home/david/RiderProjects/Clean/src/Application/obj/Debug/net8.0/Application.pdb
+/home/david/RiderProjects/Clean/src/Application/obj/Debug/net8.0/ref/Application.dll

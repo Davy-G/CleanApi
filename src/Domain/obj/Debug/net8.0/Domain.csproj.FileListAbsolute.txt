@@ -1,0 +1,11 @@
+/home/david/RiderProjects/Clean/src/Domain/bin/Debug/net8.0/Domain.deps.json
+/home/david/RiderProjects/Clean/src/Domain/bin/Debug/net8.0/Domain.dll
+/home/david/RiderProjects/Clean/src/Domain/bin/Debug/net8.0/Domain.pdb
+/home/david/RiderProjects/Clean/src/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/david/RiderProjects/Clean/src/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/home/david/RiderProjects/Clean/src/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/home/david/RiderProjects/Clean/src/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/home/david/RiderProjects/Clean/src/Domain/obj/Debug/net8.0/Domain.dll
+/home/david/RiderProjects/Clean/src/Domain/obj/Debug/net8.0/refint/Domain.dll
+/home/david/RiderProjects/Clean/src/Domain/obj/Debug/net8.0/Domain.pdb
+/home/david/RiderProjects/Clean/src/Domain/obj/Debug/net8.0/ref/Domain.dll
