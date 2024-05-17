@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8/lzTBlzURPtYfyXJG7U4YOD9XzUHCpoAnLCGGqet926xgMLSdeMLnoGkVC8iAgSfaTH8YXBf9RPD2/iE1EtaA==",
+  "dgSpecHash": "OQ/EITwG0rR1p8ssa8vi/I3bkz0B3Q5M0InVvXXOYXX82Cb0oR6xDvL6q7CV5F/T6QreMBZYRaR91H2gJ67URQ==",
   "success": true,
-  "projectFilePath": "/home/david/RiderProjects/Clean/src/Domain/Domain.csproj",
+  "projectFilePath": "C:\\Users\\Coding\\Desktop\\Clean\\src\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

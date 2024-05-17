@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/david/RiderProjects/Clean/src/Domain/Domain.csproj": {}
+    "C:\\Users\\Coding\\Desktop\\Clean\\src\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "/home/david/RiderProjects/Clean/src/Domain/Domain.csproj": {
+    "C:\\Users\\Coding\\Desktop\\Clean\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/david/RiderProjects/Clean/src/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Coding\\Desktop\\Clean\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/david/RiderProjects/Clean/src/Domain/Domain.csproj",
-        "packagesPath": "/home/david/.nuget/packages/",
-        "outputPath": "/home/david/RiderProjects/Clean/src/Domain/obj/",
+        "projectPath": "C:\\Users\\Coding\\Desktop\\Clean\\src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Coding\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Coding\\Desktop\\Clean\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/david/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Coding\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/david/.dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Coding\\.dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

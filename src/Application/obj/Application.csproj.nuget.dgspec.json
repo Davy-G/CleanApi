@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/david/RiderProjects/Clean/src/Application/Application.csproj": {}
+    "C:\\Users\\Coding\\Desktop\\Clean\\src\\Application\\Application.csproj": {}
   },
   "projects": {
-    "/home/david/RiderProjects/Clean/src/Application/Application.csproj": {
+    "C:\\Users\\Coding\\Desktop\\Clean\\src\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/david/RiderProjects/Clean/src/Application/Application.csproj",
+        "projectUniqueName": "C:\\Users\\Coding\\Desktop\\Clean\\src\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "/home/david/RiderProjects/Clean/src/Application/Application.csproj",
-        "packagesPath": "/home/david/.nuget/packages/",
-        "outputPath": "/home/david/RiderProjects/Clean/src/Application/obj/",
+        "projectPath": "C:\\Users\\Coding\\Desktop\\Clean\\src\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Coding\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Coding\\Desktop\\Clean\\src\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/david/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Coding\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/david/RiderProjects/Clean/src/Domain/Domain.csproj": {
-                "projectPath": "/home/david/RiderProjects/Clean/src/Domain/Domain.csproj"
+              "C:\\Users\\Coding\\Desktop\\Clean\\src\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Coding\\Desktop\\Clean\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -42,6 +42,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.0-preview.3.24172.4, )"
@@ -67,21 +71,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/david/.dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Coding\\.dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/david/RiderProjects/Clean/src/Domain/Domain.csproj": {
+    "C:\\Users\\Coding\\Desktop\\Clean\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/david/RiderProjects/Clean/src/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Coding\\Desktop\\Clean\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/david/RiderProjects/Clean/src/Domain/Domain.csproj",
-        "packagesPath": "/home/david/.nuget/packages/",
-        "outputPath": "/home/david/RiderProjects/Clean/src/Domain/obj/",
+        "projectPath": "C:\\Users\\Coding\\Desktop\\Clean\\src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Coding\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Coding\\Desktop\\Clean\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/david/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Coding\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -120,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/david/.dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Coding\\.dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
