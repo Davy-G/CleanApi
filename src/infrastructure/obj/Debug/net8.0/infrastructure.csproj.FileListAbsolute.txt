@@ -15,3 +15,21 @@ C:\Users\Coding\Desktop\Clean\src\infrastructure\obj\Debug\net8.0\infrastructure
 C:\Users\Coding\Desktop\Clean\src\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
 C:\Users\Coding\Desktop\Clean\src\infrastructure\obj\Debug\net8.0\infrastructure.pdb
 C:\Users\Coding\Desktop\Clean\src\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\infrastructure\bin\Debug\net8.0\Application.dll
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\infrastructure\bin\Debug\net8.0\Application.pdb
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll

@@ -7,13 +7,15 @@ namespace Presentation.Controllers;
 [Route("api")]
 public class HomeController(IMediator mediator) : ControllerBase
 {
-    [HttpGet("getbyid")]
-    public async Task<IActionResult> Index()
+    [HttpGet("getbyid/{id:long}")]
+    public async Task<IActionResult> GetUserById(long id)
     {
-        var request = new GetUserById(270);
-        var Response = await mediator.Send(request);
-        return Ok(Response);
+        var request = new GetUserById(id);
+        var resp = await mediator.Send(request);
+        return resp is null ? NotFound("user with selected id could not be found!") :  Ok(resp);
     }
+    
+    
 
     // public IActionResult Privacy()
     // {
