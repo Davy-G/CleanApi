@@ -14,6 +14,16 @@ public class HomeController(IMediator mediator) : ControllerBase
         var resp = await mediator.Send(request);
         return resp is null ? NotFound("user with selected id could not be found!") :  Ok(resp);
     }
+
+    [HttpGet("getbyname/{name} {surname}")]
+    //TODO add search by queries
+    public async Task<IActionResult> GetByName(string name, string surname = "")
+    {
+        var request = new GetUserByName(name, surname);
+        var resp = await mediator.Send(request);
+        return resp is null ? NotFound("user with selected name or surname could not be found!") :  Ok(resp);
+    }
+      
     
     
 

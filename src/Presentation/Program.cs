@@ -7,9 +7,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<SamoqalaqoDbContext>(op => op.UseSqlite(builder.Configuration.GetConnectionString("default")));
-builder.Services.AddScoped<IappDbContext>(sp => sp.GetRequiredService<SamoqalaqoDbContext>());
-builder.Services.AddMediatR(conf => conf.RegisterServicesFromAssembly(typeof(GetUserById).Assembly));
+builder.Services
+    .AddDbContext<SamoqalaqoDbContext>(op => op.UseSqlite(builder.Configuration.GetConnectionString("default")));
+builder.Services
+    .AddScoped<IappDbContext>(sp => sp.GetRequiredService<SamoqalaqoDbContext>());
+builder.Services
+    .AddMediatR(conf => conf.RegisterServicesFromAssembly(typeof(GetUserById).Assembly));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
