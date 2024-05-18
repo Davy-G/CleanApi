@@ -28,3 +28,19 @@ C:\Users\Coding\Desktop\Clean\src\Application\obj\Debug\net8.0\Application.dll
 C:\Users\Coding\Desktop\Clean\src\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\Coding\Desktop\Clean\src\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\Coding\Desktop\Clean\src\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Application\bin\Debug\net8.0\Application.deps.json
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Application\bin\Debug\net8.0\Application.dll
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Application\bin\Debug\net8.0\Application.pdb
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Application\bin\Debug\net8.0\Domain.dll
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Application\bin\Debug\net8.0\Domain.pdb
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Application\obj\Debug\net8.0\Application.dll
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Application\obj\Debug\net8.0\refint\Application.dll
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Application\obj\Debug\net8.0\Application.pdb
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Application\obj\Debug\net8.0\ref\Application.dll
