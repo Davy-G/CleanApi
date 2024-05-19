@@ -5,7 +5,7 @@ namespace Application.Users.Queries;
 using MediatR;
 
 
-public sealed record GetUserById(long Id) : IRequest<Person?>;
+public sealed record GetUser(long Id) : IRequest<Person?>;
 public sealed record GetUserByName(string Name, string? Surname) : IRequest<List<Person>?>;
 
 public sealed record GetUserByNameHandler(IappDbContext DbContext) : IRequestHandler<GetUserByName, List<Person>?>
@@ -19,9 +19,9 @@ public sealed record GetUserByNameHandler(IappDbContext DbContext) : IRequestHan
         return resp;
     }
 }
-public sealed record GetUserByIdHandler(IappDbContext Dbcontext) : IRequestHandler<GetUserById,Person?>
+public sealed record GetUserByIdHandler(IappDbContext Dbcontext) : IRequestHandler<GetUser,Person?>
 {
-    public async Task<Person?> Handle(GetUserById request, CancellationToken cancellationToken)
+    public async Task<Person?> Handle(GetUser request, CancellationToken cancellationToken)
     {
         var resp = await Dbcontext.Set<Person>()
             .Where(x => x.id == request.Id)

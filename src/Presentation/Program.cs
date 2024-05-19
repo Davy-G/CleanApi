@@ -12,7 +12,7 @@ builder.Services
 builder.Services
     .AddScoped<IappDbContext>(sp => sp.GetRequiredService<SamoqalaqoDbContext>());
 builder.Services
-    .AddMediatR(conf => conf.RegisterServicesFromAssembly(typeof(GetUserById).Assembly));
+    .AddMediatR(conf => conf.RegisterServicesFromAssembly(typeof(GetUser).Assembly));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -32,6 +32,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=UserApi}/{action=Index}/{id?}");
 
 app.Run();

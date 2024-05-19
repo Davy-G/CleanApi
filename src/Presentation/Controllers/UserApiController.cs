@@ -2,22 +2,21 @@ using System.Diagnostics;
 using Application.Users.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-
 namespace Presentation.Controllers;
+
 [Route("api")]
-public class HomeController(IMediator mediator) : ControllerBase
+public class UserApiController(IMediator mediator) : ControllerBase
 {
     [HttpGet("getbyid/{id:long}")]
     public async Task<IActionResult> GetUserById(long id)
     {
-        var request = new GetUserById(id);
+        var request = new GetUser(id);
         var resp = await mediator.Send(request);
         return resp is null ? NotFound("user with selected id could not be found!") :  Ok(resp);
     }
 
-    [HttpGet("getbyname/{name} {surname}")]
-    //TODO add search by queries
-    public async Task<IActionResult> GetByName(string name, string surname = "")
+    [HttpGet("getbyname")]
+    public async Task<IActionResult> GetByName([FromQuery] string name, [FromQuery] string surname = "")
     {
         var request = new GetUserByName(name, surname);
         var resp = await mediator.Send(request);
