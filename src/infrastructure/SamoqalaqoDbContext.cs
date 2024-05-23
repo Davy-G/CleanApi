@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace infrastructure;
 
-public class SamoqalaqoDbContext(DbContextOptions<SamoqalaqoDbContext> options) : DbContext(options), IappDbContext
+public class SamoqalaqoDbContext(DbContextOptions<SamoqalaqoDbContext> options) : DbContext(options), IAppDbContext
 {
     public DbSet<Person> Person { get; set; }
 }
