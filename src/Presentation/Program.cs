@@ -10,9 +10,11 @@ builder.Services.AddControllersWithViews();
 builder.Services
     .AddDbContext<SamoqalaqoDbContext>(op => op.UseSqlite(builder.Configuration.GetConnectionString("default")));
 builder.Services
-    .AddScoped<IappDbContext>(sp => sp.GetRequiredService<SamoqalaqoDbContext>());
+    .AddScoped<IAppDbContext>(sp => sp.GetRequiredService<SamoqalaqoDbContext>());
 builder.Services
-    .AddMediatR(conf => conf.RegisterServicesFromAssembly(typeof(GetUser).Assembly));
+    .AddMediatR(conf => conf.RegisterServicesFromAssembly(typeof(GetPerson).Assembly));
+builder.Services
+    .AddMediatR(conf => conf.RegisterServicesFromAssembly(typeof(Register).Assembly));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
