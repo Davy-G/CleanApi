@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using Application.Users.Queries;
+using Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 namespace Presentation.Controllers;
@@ -24,15 +25,16 @@ public class UserApiController(IMediator mediator) : ControllerBase
     }
 
     [HttpPost("register")]
-    public async Task<IActionResult> Register( string uname, string password)
+    public async Task<IActionResult> Register([FromBody] RegisterModel model)
     {
-        //TODO make this work
-        if (uname is null or password is null)
+        
+        if (model is null || string.IsNullOrEmpty(model.password) ||
+            string.IsNullOrEmpty(model.uname))
         {
-            
+            return BadRequest("invalid user data");
         }
-        var request = new Register(uname, password);
-        Console.WriteLine(uname);
+        var request = new Register(model.uname, model.password);
+        Console.WriteLine(model.uname);
         var resp = await mediator.Send(request);
         return Ok(resp);
     }

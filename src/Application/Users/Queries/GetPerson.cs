@@ -13,8 +13,8 @@ public sealed record GetUserByNameHandler(IAppDbContext DbContext) : IRequestHan
     public async Task<List<Person>?> Handle(GetUserByName request, CancellationToken cancellationToken)
     {
         var resp = await DbContext.Set<Person>()
-            .Where(x => request.Surname == "" ? request.Name == x.name 
-                : request.Name == x.name && request.Surname == x.surname)
+            .Where(x => request.Surname == "" ? request.Name == x.Name 
+                : request.Name == x.Name && request.Surname == x.Surname)
             .ToListAsync(cancellationToken);
         return resp;
     }
@@ -24,7 +24,7 @@ public sealed record GetUserByIdHandler(IAppDbContext Dbcontext) : IRequestHandl
     public async Task<Person?> Handle(GetPerson request, CancellationToken cancellationToken)
     {
         var resp = await Dbcontext.Set<Person>()
-            .Where(x => x.id == request.Id)
+            .Where(x => x.Id == request.Id)
             .FirstOrDefaultAsync(cancellationToken);
         return resp;
     }
