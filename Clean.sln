@@ -1,5 +1,8 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2B406939-7EC0-4868-A918-80548FC8F031}"
+	ProjectSection(SolutionItems) = preProject
+		Users.db = Users.db
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FDE18092-333A-4B02-A65C-DE3F7CAA8035}"
 EndProject
