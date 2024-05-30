@@ -7,9 +7,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<SamoqalaqoDbContext>(op => op.UseSqlite(builder.Configuration.GetConnectionString("default")));
-builder.Services.AddScoped<IappDbContext>(sp => sp.GetRequiredService<SamoqalaqoDbContext>());
-builder.Services.AddMediatR(conf => conf.RegisterServicesFromAssembly(typeof(GetUserById).Assembly));
+builder.Services
+    .AddDbContext<SamoqalaqoDbContext>(op => op.UseSqlite(builder.Configuration.GetConnectionString("default")));
+builder.Services
+    .AddScoped<IAppDbContext>(sp => sp.GetRequiredService<SamoqalaqoDbContext>());
+builder.Services
+    .AddMediatR(conf => conf.RegisterServicesFromAssembly(typeof(GetPerson).Assembly));
+builder.Services
+    .AddMediatR(conf => conf.RegisterServicesFromAssembly(typeof(Register).Assembly));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -29,6 +34,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=UserApi}/{action=Index}/{id?}");
 
 app.Run();

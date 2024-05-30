@@ -155,3 +155,4 @@ C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Presentation\obj\Debug\ne
 C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Presentation\obj\Debug\net8.0\Presentation.pdb
 C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Presentation\obj\Debug\net8.0\Presentation.genruntimeconfig.cache
 C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Presentation\obj\Debug\net8.0\ref\Presentation.dll
+C:\Users\Coding\Documents\Programming\C# NEW\Clean\src\Presentation\bin\Debug\net8.0\BCrypt.Net.dll
